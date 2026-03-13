@@ -1,0 +1,788 @@
+app/views_check_monitoring.py:33:1: C901 'bank_recon_check_monitoring' is too complex (8)
+app/views_reports.py:17:1: F401 '.controllers.helpers.aje_export_module.populate_entries as pe' imported but unused
+app/views_reports.py:17:1: F401 '.controllers.helpers.aje_export_module.check_updated_entries as cue' imported but unused
+app/views_reports.py:99:1: C901 'view_bank_recon_reports_main' is too complex (12)
+app/views_reports.py:163:80: E501 line too long (89 > 79 characters)
+app/views_reports.py:164:80: E501 line too long (85 > 79 characters)
+app/views_reports.py:245:80: E501 line too long (112 > 79 characters)
+app/views_reports.py:253:1: W293 blank line contains whitespace
+app/views_reports.py:288:1: C901 'view_bank_recon_reports_comparative_cfr_main' is too complex (8)
+app/views_reports.py:412:1: C901 'view_bank_recon_reports_bank_balances_summary_main' is too complex (8)
+app/views_uploads.py:26:13: F841 local variable 'response' is assigned to but never used
+app/views_transactions.py:10:1: F401 '.controllers.CheckMonitoring as CM' imported but unused
+app/views_transactions.py:44:1: C901 'bank_recon_transactions' is too complex (8)
+app/views_records.py:25:9: F841 local variable 'response' is assigned to but never used
+app/views_records.py:36:1: C901 'bank_recon_records' is too complex (8)
+app/views_records.py:48:13: F841 local variable 'response' is assigned to but never used
+app/view/views_bank_accounts.py:2:1: F401 'django.shortcuts.redirect' imported but unused
+app/view/views_bank_accounts.py:6:1: F401 'django.views.decorators.csrf.csrf_exempt' imported but unused
+app/view/views_bank_accounts.py:20:1: C901 'bank_recon_bank_accounts_main' is too complex (8)
+app/view/views_bank_accounts.py:26:80: E501 line too long (85 > 79 characters)
+app/view/views_bank_accounts.py:29:80: E501 line too long (81 > 79 characters)
+app/view/views_bank_accounts.py:32:80: E501 line too long (81 > 79 characters)
+app/view/views_match_reports.py:10:1: F401 'django.contrib.messages' imported but unused
+app/view/views_match_reports.py:11:1: F401 '..controllers.BankRecon as BR' imported but unused
+app/view/views_match_reports.py:11:1: F401 '..controllers.AJE' imported but unused
+app/view/views_match_reports.py:11:1: F401 '..controllers.Approvals as AP' imported but unused
+app/view/views_match_reports.py:11:1: F401 '..controllers.CashFlowReport as CFR' imported but unused
+app/view/views_match_reports.py:18:1: F401 '..controllers.helpers.aje_export_module.populate_entries as pe' imported but unused
+app/view/views_match_reports.py:18:1: F401 '..controllers.helpers.aje_export_module.check_updated_entries as cue' imported but unused
+app/view/views_match_reports.py:51:80: E501 line too long (94 > 79 characters)
+app/view/views_match_reports.py:55:1: C901 'view_bank_recon_match_reports_main' is too complex (12)
+app/view/views_match_reports.py:59:46: W291 trailing whitespace
+app/view/views_match_reports.py:61:9: F841 local variable 'second_level' is assigned to but never used
+app/view/views_match_reports.py:62:80: E501 line too long (81 > 79 characters)
+app/view/views_match_reports.py:74:80: E501 line too long (87 > 79 characters)
+app/view/views_match_reports.py:75:80: E501 line too long (87 > 79 characters)
+app/view/views_match_reports.py:116:80: E501 line too long (89 > 79 characters)
+app/view/views_match_reports.py:117:80: E501 line too long (85 > 79 characters)
+app/view/views_match_reports.py:135:80: E501 line too long (88 > 79 characters)
+app/view/views_match_reports.py:136:80: E501 line too long (88 > 79 characters)
+app/view/views_match_reports.py:181:20: W292 no newline at end of file
+app/migrations/0003_financebankreco.py:16:80: E501 line too long (114 > 79 characters)
+app/migrations/0003_financebankreco.py:19:80: E501 line too long (87 > 79 characters)
+app/migrations/0001_initial.py:17:80: E501 line too long (114 > 79 characters)
+app/migrations/0002_auto_20210814_1802.py:20:80: E501 line too long (197 > 79 characters)
+app/forms/bank_recon_data.py:6:80: E501 line too long (80 > 79 characters)
+app/forms/bank_recon_data.py:41:80: E501 line too long (81 > 79 characters)
+app/forms/bank_recon_filter.py:6:80: E501 line too long (95 > 79 characters)
+app/forms/bank_recon_filter.py:63:80: E501 line too long (81 > 79 characters)
+app/forms/bank_recon_filter.py:81:27: W291 trailing whitespace
+app/forms/bank_recon_filter.py:94:80: E501 line too long (89 > 79 characters)
+app/forms/bank_recon_filter.py:127:80: E501 line too long (110 > 79 characters)
+app/forms/bank_recon_filter.py:132:80: E501 line too long (110 > 79 characters)
+app/forms/bank_recon_filter.py:167:80: E501 line too long (110 > 79 characters)
+app/controllers/test.py:1:1: F401 'pprint.pprint' imported but unused
+app/controllers/test.py:2:1: F401 'typing.List' imported but unused
+app/controllers/test.py:4:1: F401 'bson.objectid.ObjectId' imported but unused
+app/controllers/test.py:5:1: F401 'pymongo' imported but unused
+app/controllers/test.py:10:17: E231 missing whitespace after ':'
+app/controllers/test.py:10:21: E231 missing whitespace after ','
+app/controllers/test.py:10:24: E231 missing whitespace after ':'
+app/controllers/test.py:10:28: E252 missing whitespace around parameter equals
+app/controllers/test.py:10:29: E252 missing whitespace around parameter equals
+app/controllers/test.py:11:38: E231 missing whitespace after ','
+app/controllers/test.py:13:1: E305 expected 2 blank lines after class or function definition, found 1
+app/controllers/test.py:15:1: E302 expected 2 blank lines, found 1
+app/controllers/test.py:15:23: E231 missing whitespace after ':'
+app/controllers/test.py:15:27: E231 missing whitespace after ','
+app/controllers/test.py:15:35: E231 missing whitespace after ':'
+app/controllers/test.py:15:39: E231 missing whitespace after ','
+app/controllers/test.py:15:44: E231 missing whitespace after ':'
+app/controllers/test.py:17:5: F841 local variable 'agg_qry' is assigned to but never used
+app/controllers/test.py:19:21: E231 missing whitespace after ':'
+app/controllers/test.py:20:22: E231 missing whitespace after ':'
+app/controllers/test.py:21:1: W293 blank line contains whitespace
+app/controllers/test.py:23:1: W293 blank line contains whitespace
+app/controllers/test.py:27:16: E231 missing whitespace after ':'
+app/controllers/test.py:31:5: E265 block comment should start with '# '
+app/controllers/test.py:35:16: E225 missing whitespace around operator
+app/controllers/test.py:35:35: E231 missing whitespace after ','
+app/controllers/test.py:36:34: E231 missing whitespace after ','
+app/controllers/test.py:37:33: E231 missing whitespace after ','
+app/controllers/test.py:38:14: E225 missing whitespace around operator
+app/controllers/test.py:41:1: E302 expected 2 blank lines, found 1
+app/controllers/test.py:46:5: E303 too many blank lines (2)
+app/controllers/test.py:46:41: E231 missing whitespace after ','
+app/controllers/test.py:46:46: E231 missing whitespace after ','
+app/controllers/test.py:47:40: E231 missing whitespace after ','
+app/controllers/test.py:47:45: E231 missing whitespace after ','
+app/controllers/test.py:48:27: E231 missing whitespace after ','
+app/controllers/test.py:50:1: E305 expected 2 blank lines after class or function definition, found 1
+app/controllers/test.py:51:8: E222 multiple spaces after operator
+app/controllers/test.py:51:30: E231 missing whitespace after ','
+app/controllers/test.py:51:35: E231 missing whitespace after ','
+app/controllers/Approvals.py:1:1: F401 're' imported but unused
+app/controllers/Approvals.py:5:1: F401 '.BankRecon as br' imported but unused
+app/controllers/Approvals.py:11:1: C901 'set_approval' is too complex (10)
+app/controllers/Approvals.py:15:80: E501 line too long (90 > 79 characters)
+app/controllers/Approvals.py:20:42: E231 missing whitespace after ','
+app/controllers/Approvals.py:20:62: E231 missing whitespace after ':'
+app/controllers/Approvals.py:20:80: E501 line too long (110 > 79 characters)
+app/controllers/Approvals.py:20:98: E231 missing whitespace after ':'
+app/controllers/Approvals.py:23:42: E231 missing whitespace after ','
+app/controllers/Approvals.py:23:62: E231 missing whitespace after ':'
+app/controllers/Approvals.py:23:80: E501 line too long (105 > 79 characters)
+app/controllers/Approvals.py:23:98: E231 missing whitespace after ':'
+app/controllers/Approvals.py:26:42: E231 missing whitespace after ','
+app/controllers/Approvals.py:26:62: E231 missing whitespace after ':'
+app/controllers/Approvals.py:26:80: E501 line too long (106 > 79 characters)
+app/controllers/Approvals.py:26:98: E231 missing whitespace after ':'
+app/controllers/Approvals.py:27:1: W293 blank line contains whitespace
+app/controllers/MatchReports.py:2:1: F401 'datetime.datetime as dt' imported but unused
+app/controllers/MatchReports.py:3:1: F401 'typing.Type' imported but unused
+app/controllers/MatchReports.py:4:1: F401 'django.contrib.messages' imported but unused
+app/controllers/MatchReports.py:7:1: F401 '.Companies as cm' imported but unused
+app/controllers/MatchReports.py:8:1: F401 '.helpers.aje_export_module.populate_entries as pe' imported but unused
+app/controllers/MatchReports.py:8:1: F401 '.helpers.aje_export_module.random_string_generator as rsg' imported but unused
+app/controllers/MatchReports.py:8:1: F401 '.helpers.aje_export_module.check_updated_entries as ckup' imported but unused
+app/controllers/MatchReports.py:13:1: F401 '.helpers.bank_account_module.Bank_Account_Module as bam' imported but unused
+app/controllers/MatchReports.py:13:1: F401 '.helpers.bank_account_module.get_monthly_adj_cash_bal' imported but unused
+app/controllers/MatchReports.py:17:1: F401 '.helpers.BankReconReport.BankReconReport' imported but unused
+app/controllers/MatchReports.py:17:1: F401 '.helpers.BankReconReport.get_book_error' imported but unused
+app/controllers/MatchReports.py:17:1: F401 '.helpers.BankReconReport.get_outstanding_checks' imported but unused
+app/controllers/MatchReports.py:22:1: F401 '.helpers.match_unmatch_segregate.Segregator' imported but unused
+app/controllers/MatchReports.py:27:1: F401 'pandas as pd' imported but unused
+app/controllers/MatchReports.py:51:1: C901 'get_specific_report' is too complex (34)
+app/controllers/MatchReports.py:67:72: E231 missing whitespace after ','
+app/controllers/MatchReports.py:67:80: E501 line too long (88 > 79 characters)
+app/controllers/MatchReports.py:68:72: E231 missing whitespace after ','
+app/controllers/MatchReports.py:68:80: E501 line too long (88 > 79 characters)
+app/controllers/MatchReports.py:76:5: F841 local variable 'match_id' is assigned to but never used
+app/controllers/MatchReports.py:77:5: F841 local variable 'keys' is assigned to but never used
+app/controllers/MatchReports.py:94:1: W293 blank line contains whitespace
+app/controllers/MatchReports.py:134:1: W293 blank line contains whitespace
+app/controllers/MatchReports.py:160:17: E722 do not use bare 'except'
+app/controllers/MatchReports.py:167:80: E501 line too long (82 > 79 characters)
+app/controllers/MatchReports.py:188:80: E501 line too long (88 > 79 characters)
+app/controllers/MatchReports.py:192:80: E501 line too long (94 > 79 characters)
+app/controllers/MatchReports.py:200:80: E501 line too long (85 > 79 characters)
+app/controllers/MatchReports.py:209:80: E501 line too long (87 > 79 characters)
+app/controllers/MatchReports.py:214:80: E501 line too long (87 > 79 characters)
+app/controllers/MatchReports.py:219:80: E501 line too long (87 > 79 characters)
+app/controllers/MatchReports.py:264:30: W292 no newline at end of file
+app/controllers/AJE.py:1:1: F401 'os' imported but unused
+app/controllers/AJE.py:2:1: F401 'time' imported but unused
+app/controllers/AJE.py:3:1: F401 'csv' imported but unused
+app/controllers/AJE.py:4:1: F401 're' imported but unused
+app/controllers/AJE.py:5:1: F401 'subprocess' imported but unused
+app/controllers/AJE.py:6:1: F401 'math' imported but unused
+app/controllers/AJE.py:7:1: F401 'io.open' imported but unused
+app/controllers/AJE.py:9:1: F401 'pprint.pprint' imported but unused
+app/controllers/AJE.py:10:1: F401 '.DbOps' imported but unused
+app/controllers/AJE.py:10:1: F401 '.BankRecon as br' imported but unused
+app/controllers/AJE.py:11:1: F401 'datetime.date' imported but unused
+app/controllers/AJE.py:11:1: F401 'datetime.datetime' imported but unused
+app/controllers/AJE.py:11:1: F401 'datetime.timedelta' imported but unused
+app/controllers/AJE.py:12:1: F401 'uuid.uuid4' imported but unused
+app/controllers/AJE.py:14:1: F401 '.helpers.aje_export_module.populate_entries as pe' imported but unused
+app/controllers/AJE.py:24:80: E501 line too long (80 > 79 characters)
+app/controllers/AJE.py:28:9: F841 local variable 'res' is assigned to but never used
+app/controllers/AJE.py:36:10: W292 no newline at end of file
+app/controllers/CashFlowReport.py:7:1: F401 '.BankRecon as br' imported but unused
+app/controllers/CashFlowReport.py:15:80: E501 line too long (98 > 79 characters)
+app/controllers/CashFlowReport.py:21:20: W291 trailing whitespace
+app/controllers/CashFlowReport.py:40:1: E302 expected 2 blank lines, found 1
+app/controllers/CashFlowReport.py:63:80: E501 line too long (90 > 79 characters)
+app/controllers/CashFlowReport.py:75:80: E501 line too long (117 > 79 characters)
+app/controllers/CashFlowReport.py:79:80: E501 line too long (117 > 79 characters)
+app/controllers/CashFlowReport.py:83:80: E501 line too long (117 > 79 characters)
+app/controllers/CashFlowReport.py:86:80: E501 line too long (111 > 79 characters)
+app/controllers/CashFlowReport.py:86:81: E221 multiple spaces before operator
+app/controllers/CashFlowReport.py:93:1: C901 'get_cfr' is too complex (12)
+app/controllers/CashFlowReport.py:93:1: E303 too many blank lines (3)
+app/controllers/CashFlowReport.py:97:24: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:97:41: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:101:25: W291 trailing whitespace
+app/controllers/CashFlowReport.py:107:31: W291 trailing whitespace
+app/controllers/CashFlowReport.py:109:39: W291 trailing whitespace
+app/controllers/CashFlowReport.py:136:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:136:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:136:44: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:136:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:141:24: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:141:41: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:143:10: W291 trailing whitespace
+app/controllers/CashFlowReport.py:145:25: W291 trailing whitespace
+app/controllers/CashFlowReport.py:146:53: W291 trailing whitespace
+app/controllers/CashFlowReport.py:147:50: W291 trailing whitespace
+app/controllers/CashFlowReport.py:149:35: W291 trailing whitespace
+app/controllers/CashFlowReport.py:159:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:159:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:159:30: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:159:32: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:174:80: E501 line too long (80 > 79 characters)
+app/controllers/CashFlowReport.py:190:80: E501 line too long (81 > 79 characters)
+app/controllers/CashFlowReport.py:197:80: E501 line too long (84 > 79 characters)
+app/controllers/CashFlowReport.py:201:1: W293 blank line contains whitespace
+app/controllers/CashFlowReport.py:218:1: C901 'get_comparative_cfr' is too complex (11)
+app/controllers/CashFlowReport.py:220:80: E501 line too long (80 > 79 characters)
+app/controllers/CashFlowReport.py:226:67: E231 missing whitespace after ','
+app/controllers/CashFlowReport.py:227:65: E231 missing whitespace after ','
+app/controllers/CashFlowReport.py:233:25: W291 trailing whitespace
+app/controllers/CashFlowReport.py:239:31: W291 trailing whitespace
+app/controllers/CashFlowReport.py:241:39: W291 trailing whitespace
+app/controllers/CashFlowReport.py:268:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:268:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:268:44: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:268:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:275:67: E231 missing whitespace after ','
+app/controllers/CashFlowReport.py:276:65: E231 missing whitespace after ','
+app/controllers/CashFlowReport.py:280:10: W291 trailing whitespace
+app/controllers/CashFlowReport.py:282:25: W291 trailing whitespace
+app/controllers/CashFlowReport.py:283:53: W291 trailing whitespace
+app/controllers/CashFlowReport.py:284:50: W291 trailing whitespace
+app/controllers/CashFlowReport.py:286:35: W291 trailing whitespace
+app/controllers/CashFlowReport.py:296:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:296:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:296:30: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:296:32: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:311:80: E501 line too long (80 > 79 characters)
+app/controllers/CashFlowReport.py:328:80: E501 line too long (81 > 79 characters)
+app/controllers/CashFlowReport.py:335:80: E501 line too long (84 > 79 characters)
+app/controllers/CashFlowReport.py:352:1: C901 'get_detailed_cfr_by_month' is too complex (13)
+app/controllers/CashFlowReport.py:354:80: E501 line too long (80 > 79 characters)
+app/controllers/CashFlowReport.py:356:80: E501 line too long (97 > 79 characters)
+app/controllers/CashFlowReport.py:357:80: E501 line too long (89 > 79 characters)
+app/controllers/CashFlowReport.py:374:27: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:374:48: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:379:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:379:22: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:379:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:380:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:380:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:380:44: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:380:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:382:1: W293 blank line contains whitespace
+app/controllers/CashFlowReport.py:383:21: W291 trailing whitespace
+app/controllers/CashFlowReport.py:389:55: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:389:75: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:391:46: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:391:66: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:392:80: E501 line too long (112 > 79 characters)
+app/controllers/CashFlowReport.py:401:80: E501 line too long (85 > 79 characters)
+app/controllers/CashFlowReport.py:406:1: W293 blank line contains whitespace
+app/controllers/CashFlowReport.py:410:80: E501 line too long (85 > 79 characters)
+app/controllers/CashFlowReport.py:411:64: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:411:80: E501 line too long (91 > 79 characters)
+app/controllers/CashFlowReport.py:411:89: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:413:55: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:413:80: E501 line too long (81 > 79 characters)
+app/controllers/CashFlowReport.py:413:80: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:415:32: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:415:59: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:418:80: E501 line too long (83 > 79 characters)
+app/controllers/CashFlowReport.py:421:80: E501 line too long (95 > 79 characters)
+app/controllers/CashFlowReport.py:426:1: C901 'get_cfr_by_month' is too complex (17)
+app/controllers/CashFlowReport.py:429:80: E501 line too long (90 > 79 characters)
+app/controllers/CashFlowReport.py:430:80: E501 line too long (82 > 79 characters)
+app/controllers/CashFlowReport.py:447:27: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:447:48: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:452:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:452:22: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:452:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:453:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:453:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:453:44: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:453:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:455:1: W293 blank line contains whitespace
+app/controllers/CashFlowReport.py:456:21: W291 trailing whitespace
+app/controllers/CashFlowReport.py:462:55: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:462:75: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:464:46: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:464:66: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:465:80: E501 line too long (112 > 79 characters)
+app/controllers/CashFlowReport.py:480:80: E501 line too long (85 > 79 characters)
+app/controllers/CashFlowReport.py:486:10: E231 missing whitespace after ','
+app/controllers/CashFlowReport.py:496:80: E501 line too long (85 > 79 characters)
+app/controllers/CashFlowReport.py:497:64: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:497:80: E501 line too long (91 > 79 characters)
+app/controllers/CashFlowReport.py:497:89: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:499:55: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:499:80: E501 line too long (81 > 79 characters)
+app/controllers/CashFlowReport.py:499:80: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:501:32: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:501:59: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:504:80: E501 line too long (83 > 79 characters)
+app/controllers/CashFlowReport.py:507:80: E501 line too long (95 > 79 characters)
+app/controllers/CashFlowReport.py:522:1: W293 blank line contains whitespace
+app/controllers/CashFlowReport.py:527:80: E501 line too long (117 > 79 characters)
+app/controllers/CashFlowReport.py:531:80: E501 line too long (117 > 79 characters)
+app/controllers/CashFlowReport.py:535:80: E501 line too long (117 > 79 characters)
+app/controllers/CashFlowReport.py:538:80: E501 line too long (111 > 79 characters)
+app/controllers/CashFlowReport.py:538:81: E221 multiple spaces before operator
+app/controllers/CashFlowReport.py:543:1: E302 expected 2 blank lines, found 1
+app/controllers/CashFlowReport.py:545:80: E501 line too long (94 > 79 characters)
+app/controllers/CashFlowReport.py:546:80: E501 line too long (83 > 79 characters)
+app/controllers/CashFlowReport.py:548:80: E501 line too long (83 > 79 characters)
+app/controllers/CashFlowReport.py:550:24: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:550:46: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:550:80: E501 line too long (117 > 79 characters)
+app/controllers/CashFlowReport.py:550:102: E231 missing whitespace after ','
+app/controllers/CashFlowReport.py:550:114: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:550:116: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:552:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:552:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:552:44: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:552:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:553:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:553:22: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:556:80: E501 line too long (81 > 79 characters)
+app/controllers/CashFlowReport.py:558:24: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:558:46: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:558:80: E501 line too long (93 > 79 characters)
+app/controllers/CashFlowReport.py:558:90: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:558:92: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:560:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:560:21: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:560:44: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:560:46: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:561:10: E201 whitespace after '{'
+app/controllers/CashFlowReport.py:561:22: E202 whitespace before '}'
+app/controllers/CashFlowReport.py:563:1: W293 blank line contains whitespace
+app/controllers/CashFlowReport.py:575:1: E303 too many blank lines (3)
+app/controllers/CashFlowReport.py:584:4: W292 no newline at end of file
+app/controllers/CashFlowReport.py:584:80: E501 line too long (162 > 79 characters)
+app/controllers/BankRecon.py:2:1: F401 'datetime.datetime as dt' imported but unused
+app/controllers/BankRecon.py:3:1: F401 'typing.Type' imported but unused
+app/controllers/BankRecon.py:8:1: F401 '.helpers.aje_export_module.check_updated_entries as ckup' imported but unused
+app/controllers/BankRecon.py:13:1: F401 '.helpers.bank_account_module.Bank_Account_Module as bam' imported but unused
+app/controllers/BankRecon.py:17:1: F401 '.helpers.BankReconReport.BankReconReport' imported but unused
+app/controllers/BankRecon.py:17:1: F401 '.helpers.BankReconReport.get_book_error' imported but unused
+app/controllers/BankRecon.py:17:1: F401 '.helpers.BankReconReport.get_outstanding_checks' imported but unused
+app/controllers/BankRecon.py:50:1: C901 'get_specific_report' is too complex (73)
+app/controllers/BankRecon.py:53:80: E501 line too long (80 > 79 characters)
+app/controllers/BankRecon.py:78:5: F841 local variable 'match_id' is assigned to but never used
+app/controllers/BankRecon.py:79:5: F841 local variable 'keys' is assigned to but never used
+app/controllers/BankRecon.py:86:5: E266 too many leading '#' for block comment
+app/controllers/BankRecon.py:96:1: W293 blank line contains whitespace
+app/controllers/BankRecon.py:117:80: E501 line too long (96 > 79 characters)
+app/controllers/BankRecon.py:119:13: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:119:80: E501 line too long (82 > 79 characters)
+app/controllers/BankRecon.py:124:13: E722 do not use bare 'except'
+app/controllers/BankRecon.py:128:13: E722 do not use bare 'except'
+app/controllers/BankRecon.py:133:80: E501 line too long (85 > 79 characters)
+app/controllers/BankRecon.py:134:21: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:134:80: E501 line too long (90 > 79 characters)
+app/controllers/BankRecon.py:139:80: E501 line too long (94 > 79 characters)
+app/controllers/BankRecon.py:140:21: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:140:80: E501 line too long (99 > 79 characters)
+app/controllers/BankRecon.py:145:80: E501 line too long (104 > 79 characters)
+app/controllers/BankRecon.py:146:80: E501 line too long (85 > 79 characters)
+app/controllers/BankRecon.py:147:21: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:147:80: E501 line too long (90 > 79 characters)
+app/controllers/BankRecon.py:152:80: E501 line too long (98 > 79 characters)
+app/controllers/BankRecon.py:153:80: E501 line too long (83 > 79 characters)
+app/controllers/BankRecon.py:154:43: E128 continuation line under-indented for visual indent
+app/controllers/BankRecon.py:154:80: E501 line too long (106 > 79 characters)
+app/controllers/BankRecon.py:155:80: E501 line too long (98 > 79 characters)
+app/controllers/BankRecon.py:156:80: E501 line too long (101 > 79 characters)
+app/controllers/BankRecon.py:163:80: E501 line too long (84 > 79 characters)
+app/controllers/BankRecon.py:164:80: E501 line too long (109 > 79 characters)
+app/controllers/BankRecon.py:165:80: E501 line too long (107 > 79 characters)
+app/controllers/BankRecon.py:186:80: E501 line too long (83 > 79 characters)
+app/controllers/BankRecon.py:187:80: E501 line too long (102 > 79 characters)
+app/controllers/BankRecon.py:188:5: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:188:80: E501 line too long (103 > 79 characters)
+app/controllers/BankRecon.py:190:80: E501 line too long (87 > 79 characters)
+app/controllers/BankRecon.py:192:17: E722 do not use bare 'except'
+app/controllers/BankRecon.py:204:80: E501 line too long (96 > 79 characters)
+app/controllers/BankRecon.py:206:13: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:206:80: E501 line too long (82 > 79 characters)
+app/controllers/BankRecon.py:210:13: E722 do not use bare 'except'
+app/controllers/BankRecon.py:214:13: E722 do not use bare 'except'
+app/controllers/BankRecon.py:218:17: F841 local variable 'is_gl' is assigned to but never used
+app/controllers/BankRecon.py:219:80: E501 line too long (85 > 79 characters)
+app/controllers/BankRecon.py:220:21: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:220:80: E501 line too long (90 > 79 characters)
+app/controllers/BankRecon.py:225:80: E501 line too long (94 > 79 characters)
+app/controllers/BankRecon.py:226:21: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:226:80: E501 line too long (99 > 79 characters)
+app/controllers/BankRecon.py:231:80: E501 line too long (104 > 79 characters)
+app/controllers/BankRecon.py:232:80: E501 line too long (85 > 79 characters)
+app/controllers/BankRecon.py:233:21: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:233:80: E501 line too long (90 > 79 characters)
+app/controllers/BankRecon.py:237:80: E501 line too long (98 > 79 characters)
+app/controllers/BankRecon.py:238:80: E501 line too long (83 > 79 characters)
+app/controllers/BankRecon.py:239:41: E128 continuation line under-indented for visual indent
+app/controllers/BankRecon.py:239:80: E501 line too long (104 > 79 characters)
+app/controllers/BankRecon.py:240:41: E128 continuation line under-indented for visual indent
+app/controllers/BankRecon.py:240:80: E501 line too long (92 > 79 characters)
+app/controllers/BankRecon.py:241:41: E128 continuation line under-indented for visual indent
+app/controllers/BankRecon.py:241:80: E501 line too long (95 > 79 characters)
+app/controllers/BankRecon.py:247:80: E501 line too long (109 > 79 characters)
+app/controllers/BankRecon.py:248:80: E501 line too long (107 > 79 characters)
+app/controllers/BankRecon.py:249:59: W291 trailing whitespace
+app/controllers/BankRecon.py:267:80: E501 line too long (83 > 79 characters)
+app/controllers/BankRecon.py:268:80: E501 line too long (102 > 79 characters)
+app/controllers/BankRecon.py:269:5: E129 visually indented line with same indent as next logical line
+app/controllers/BankRecon.py:269:80: E501 line too long (103 > 79 characters)
+app/controllers/BankRecon.py:271:80: E501 line too long (87 > 79 characters)
+app/controllers/BankRecon.py:274:17: E722 do not use bare 'except'
+app/controllers/BankRecon.py:303:17: E722 do not use bare 'except'
+app/controllers/BankRecon.py:327:1: W293 blank line contains whitespace
+app/controllers/BankRecon.py:328:80: E501 line too long (86 > 79 characters)
+app/controllers/BankRecon.py:329:80: E501 line too long (102 > 79 characters)
+app/controllers/BankRecon.py:332:54: W291 trailing whitespace
+app/controllers/BankRecon.py:335:46: E231 missing whitespace after ','
+app/controllers/BankRecon.py:335:64: E231 missing whitespace after ','
+app/controllers/BankRecon.py:336:46: E231 missing whitespace after ','
+app/controllers/BankRecon.py:336:64: E231 missing whitespace after ','
+app/controllers/BankRecon.py:336:80: E501 line too long (84 > 79 characters)
+app/controllers/BankRecon.py:350:1: W293 blank line contains whitespace
+app/controllers/BankRecon.py:357:1: W293 blank line contains whitespace
+app/controllers/BankRecon.py:362:80: E501 line too long (83 > 79 characters)
+app/controllers/BankRecon.py:388:46: W291 trailing whitespace
+app/controllers/BankRecon.py:400:80: E501 line too long (88 > 79 characters)
+app/controllers/BankRecon.py:429:80: E501 line too long (85 > 79 characters)
+app/controllers/BankRecon.py:438:80: E501 line too long (87 > 79 characters)
+app/controllers/BankRecon.py:443:80: E501 line too long (87 > 79 characters)
+app/controllers/BankRecon.py:448:80: E501 line too long (87 > 79 characters)
+app/controllers/BankRecon.py:465:25: W291 trailing whitespace
+app/controllers/BankRecon.py:516:1: W293 blank line contains whitespace
+app/controllers/BankRecon.py:526:36: E231 missing whitespace after ':'
+app/controllers/BankRecon.py:527:38: E231 missing whitespace after ':'
+app/controllers/BankRecon.py:543:1: W293 blank line contains whitespace
+app/controllers/BankRecon.py:553:36: E231 missing whitespace after ':'
+app/controllers/BankRecon.py:554:38: E231 missing whitespace after ':'
+app/controllers/BankRecon.py:663:80: E501 line too long (111 > 79 characters)
+app/controllers/BankRecon.py:689:13: F841 local variable 'res' is assigned to but never used
+app/controllers/ErrorHandling.py:2:1: F401 'bson.objectid.ObjectId' imported but unused
+app/controllers/ErrorHandling.py:3:1: F401 'pprint.pprint' imported but unused
+app/controllers/ErrorHandling.py:10:80: E501 line too long (93 > 79 characters)
+app/controllers/ErrorHandling.py:15:9: F841 local variable 'func_name' is assigned to but never used
+app/controllers/ErrorHandling.py:17:19: W292 no newline at end of file
+app/controllers/Records.py:14:1: W293 blank line contains whitespace
+app/controllers/Records.py:15:80: E501 line too long (84 > 79 characters)
+app/controllers/Records.py:16:78: E231 missing whitespace after ','
+app/controllers/Records.py:16:80: E501 line too long (82 > 79 characters)
+app/controllers/Records.py:17:1: W293 blank line contains whitespace
+app/controllers/Records.py:23:30: E222 multiple spaces after operator
+app/controllers/Records.py:25:80: E501 line too long (81 > 79 characters)
+app/controllers/Records.py:27:61: E231 missing whitespace after ':'
+app/controllers/Records.py:27:80: E501 line too long (111 > 79 characters)
+app/controllers/Records.py:32:24: E231 missing whitespace after ':'
+app/controllers/Records.py:35:1: C901 'del_record' is too complex (9)
+app/controllers/Records.py:37:1: W293 blank line contains whitespace
+app/controllers/Records.py:38:45: E231 missing whitespace after ':'
+app/controllers/Records.py:40:60: E231 missing whitespace after ':'
+app/controllers/Records.py:47:64: E231 missing whitespace after ':'
+app/controllers/Records.py:47:80: E501 line too long (87 > 79 characters)
+app/controllers/Records.py:48:1: W293 blank line contains whitespace
+app/controllers/Records.py:50:43: E231 missing whitespace after ':'
+app/controllers/Records.py:52:49: W291 trailing whitespace
+app/controllers/Records.py:53:54: E231 missing whitespace after ':'
+app/controllers/Records.py:53:77: W291 trailing whitespace
+app/controllers/Records.py:57:29: E124 closing bracket does not match visual indentation
+app/controllers/Records.py:59:1: W293 blank line contains whitespace
+app/controllers/Records.py:61:43: E231 missing whitespace after ':'
+app/controllers/Records.py:63:49: W291 trailing whitespace
+app/controllers/Records.py:64:54: E231 missing whitespace after ':'
+app/controllers/Records.py:64:77: W291 trailing whitespace
+app/controllers/Records.py:65:80: E501 line too long (82 > 79 characters)
+app/controllers/Records.py:68:29: E124 closing bracket does not match visual indentation
+app/controllers/Records.py:73:1: W293 blank line contains whitespace
+app/controllers/Records.py:75:1: W293 blank line contains whitespace
+app/controllers/Records.py:76:13: F841 local variable 'result' is assigned to but never used
+app/controllers/Records.py:76:65: E231 missing whitespace after ':'
+app/controllers/Records.py:84:10: W291 trailing whitespace
+app/controllers/Uploader.py:6:1: F401 'math' imported but unused
+app/controllers/Uploader.py:11:1: F401 'datetime.date' imported but unused
+app/controllers/Uploader.py:44:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:47:18: E222 multiple spaces after operator
+app/controllers/Uploader.py:53:55: E231 missing whitespace after ':'
+app/controllers/Uploader.py:53:80: E501 line too long (119 > 79 characters)
+app/controllers/Uploader.py:54:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:57:1: E303 too many blank lines (3)
+app/controllers/Uploader.py:62:80: E501 line too long (83 > 79 characters)
+app/controllers/Uploader.py:65:5: F841 local variable 'e' is assigned to but never used
+app/controllers/Uploader.py:72:1: C901 'upload_record_data' is too complex (15)
+app/controllers/Uploader.py:72:1: E303 too many blank lines (3)
+app/controllers/Uploader.py:80:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:84:80: E501 line too long (85 > 79 characters)
+app/controllers/Uploader.py:86:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:88:80: E501 line too long (87 > 79 characters)
+app/controllers/Uploader.py:89:80: E501 line too long (89 > 79 characters)
+app/controllers/Uploader.py:101:80: E501 line too long (82 > 79 characters)
+app/controllers/Uploader.py:109:80: E501 line too long (85 > 79 characters)
+app/controllers/Uploader.py:115:80: E501 line too long (82 > 79 characters)
+app/controllers/Uploader.py:122:80: E501 line too long (81 > 79 characters)
+app/controllers/Uploader.py:127:80: E501 line too long (81 > 79 characters)
+app/controllers/Uploader.py:140:1: C901 'csv_to_listdict' is too complex (15)
+app/controllers/Uploader.py:141:80: E501 line too long (82 > 79 characters)
+app/controllers/Uploader.py:151:25: E722 do not use bare 'except'
+app/controllers/Uploader.py:152:80: E501 line too long (80 > 79 characters)
+app/controllers/Uploader.py:156:80: E501 line too long (102 > 79 characters)
+app/controllers/Uploader.py:159:5: E722 do not use bare 'except'
+app/controllers/Uploader.py:169:25: E722 do not use bare 'except'
+app/controllers/Uploader.py:170:80: E501 line too long (80 > 79 characters)
+app/controllers/Uploader.py:174:80: E501 line too long (102 > 79 characters)
+app/controllers/Uploader.py:179:1: C901 'upload_file' is too complex (12)
+app/controllers/Uploader.py:187:80: E501 line too long (85 > 79 characters)
+app/controllers/Uploader.py:191:80: E501 line too long (87 > 79 characters)
+app/controllers/Uploader.py:192:80: E501 line too long (89 > 79 characters)
+app/controllers/Uploader.py:199:80: E501 line too long (82 > 79 characters)
+app/controllers/Uploader.py:202:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:204:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:206:78: E231 missing whitespace after ','
+app/controllers/Uploader.py:206:80: E501 line too long (82 > 79 characters)
+app/controllers/Uploader.py:207:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:213:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:217:80: E501 line too long (81 > 79 characters)
+app/controllers/Uploader.py:222:80: E501 line too long (100 > 79 characters)
+app/controllers/Uploader.py:236:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:238:1: C901 'upload_access_file' is too complex (9)
+app/controllers/Uploader.py:243:80: E501 line too long (112 > 79 characters)
+app/controllers/Uploader.py:246:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:247:80: E501 line too long (102 > 79 characters)
+app/controllers/Uploader.py:249:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:253:80: E501 line too long (89 > 79 characters)
+app/controllers/Uploader.py:253:85: E231 missing whitespace after ','
+app/controllers/Uploader.py:254:80: E501 line too long (96 > 79 characters)
+app/controllers/Uploader.py:265:1: W293 blank line contains whitespace
+app/controllers/Uploader.py:276:80: E501 line too long (88 > 79 characters)
+app/controllers/Uploader.py:280:1: W293 blank line contains whitespace
+app/controllers/BankAccounts.py:3:1: F401 'pprint.pprint' imported but unused
+app/controllers/BankAccounts.py:4:1: F401 'app.controllers.BankAccounts as BA' imported but unused
+app/controllers/BankAccounts.py:19:80: E501 line too long (81 > 79 characters)
+app/controllers/BankAccounts.py:43:80: E501 line too long (107 > 79 characters)
+app/controllers/BankAccounts.py:43:84: E201 whitespace after '{'
+app/controllers/BankAccounts.py:43:105: E202 whitespace before '}'
+app/controllers/BankAccounts.py:53:80: E501 line too long (81 > 79 characters)
+app/controllers/Companies.py:1:1: F401 're' imported but unused
+app/controllers/Companies.py:2:1: F401 'bson.objectid.ObjectId' imported but unused
+app/controllers/Companies.py:3:1: F401 'django.contrib.messages' imported but unused
+app/controllers/Companies.py:10:1: E302 expected 2 blank lines, found 1
+app/controllers/Companies.py:12:32: E231 missing whitespace after ','
+app/controllers/Companies.py:12:80: E501 line too long (106 > 79 characters)
+app/controllers/Companies.py:18:1: E302 expected 2 blank lines, found 1
+app/controllers/Companies.py:20:16: W292 no newline at end of file
+app/controllers/helpers/Group.py:1:1: F401 'pprint.pprint' imported but unused
+app/controllers/helpers/Group.py:9:1: W293 blank line contains whitespace
+app/controllers/helpers/Group.py:15:80: E501 line too long (81 > 79 characters)
+app/controllers/helpers/Group.py:16:1: W293 blank line contains whitespace
+app/controllers/helpers/Group.py:17:24: W292 no newline at end of file
+app/controllers/helpers/BankReconReport.py:1:1: F401 'pprint.pprint' imported but unused
+app/controllers/helpers/BankReconReport.py:12:9: F841 local variable 'debit_memo' is assigned to but never used
+app/controllers/helpers/BankReconReport.py:14:13: F841 local variable 'flag' is assigned to but never used
+app/controllers/helpers/BankReconReport.py:16:80: E501 line too long (81 > 79 characters)
+app/controllers/helpers/BankReconReport.py:20:80: E501 line too long (90 > 79 characters)
+app/controllers/helpers/BankReconReport.py:23:5: E129 visually indented line with same indent as next logical line
+app/controllers/helpers/BankReconReport.py:23:80: E501 line too long (82 > 79 characters)
+app/controllers/helpers/BankReconReport.py:31:41: E128 continuation line under-indented for visual indent
+app/controllers/helpers/BankReconReport.py:32:41: E128 continuation line under-indented for visual indent
+app/controllers/helpers/BankReconReport.py:32:80: E501 line too long (95 > 79 characters)
+app/controllers/helpers/BankReconReport.py:33:41: E124 closing bracket does not match visual indentation
+app/controllers/helpers/BankReconReport.py:34:80: E501 line too long (87 > 79 characters)
+app/controllers/helpers/BankReconReport.py:39:80: E501 line too long (81 > 79 characters)
+app/controllers/helpers/BankReconReport.py:43:1: W293 blank line contains whitespace
+app/controllers/helpers/BankReconReport.py:50:5: E129 visually indented line with same indent as next logical line
+app/controllers/helpers/BankReconReport.py:50:80: E501 line too long (89 > 79 characters)
+app/controllers/helpers/BankReconReport.py:56:1: W293 blank line contains whitespace
+app/controllers/helpers/BankReconReport.py:61:5: E129 visually indented line with same indent as next logical line
+app/controllers/helpers/BankReconReport.py:61:80: E501 line too long (85 > 79 characters)
+app/controllers/helpers/BankReconReport.py:72:1: E302 expected 2 blank lines, found 1
+app/controllers/helpers/match_unmatch_segregate.py:11:1: F401 'heapq.merge' imported but unused
+app/controllers/helpers/match_unmatch_segregate.py:12:1: F401 'sqlite3.DatabaseError' imported but unused
+app/controllers/helpers/match_unmatch_segregate.py:14:1: F401 'pprint.pprint' imported but unused
+app/controllers/helpers/match_unmatch_segregate.py:17:1: F401 'datetime as dt' imported but unused
+app/controllers/helpers/match_unmatch_segregate.py:18:1: F401 'json' imported but unused
+app/controllers/helpers/match_unmatch_segregate.py:24:1: E302 expected 2 blank lines, found 0
+app/controllers/helpers/match_unmatch_segregate.py:43:80: E501 line too long (85 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:52:5: E303 too many blank lines (2)
+app/controllers/helpers/match_unmatch_segregate.py:54:80: E501 line too long (95 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:55:80: E501 line too long (95 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:58:80: E501 line too long (97 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:60:13: E265 block comment should start with '# '
+app/controllers/helpers/match_unmatch_segregate.py:60:80: E501 line too long (85 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:62:80: E501 line too long (100 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:80:80: E501 line too long (125 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:82:80: E501 line too long (154 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:83:80: E501 line too long (84 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:84:80: E501 line too long (81 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:95:35: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/match_unmatch_segregate.py:95:37: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/match_unmatch_segregate.py:96:34: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/match_unmatch_segregate.py:96:36: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/match_unmatch_segregate.py:116:9: E303 too many blank lines (2)
+app/controllers/helpers/match_unmatch_segregate.py:116:80: E501 line too long (145 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:117:80: E501 line too long (84 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:118:80: E501 line too long (123 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:119:80: E501 line too long (95 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:123:80: E501 line too long (108 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:125:80: E501 line too long (80 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:127:80: E501 line too long (111 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:134:80: E501 line too long (92 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:135:80: E501 line too long (92 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:137:9: F841 local variable 'speed' is assigned to but never used
+app/controllers/helpers/match_unmatch_segregate.py:137:33: E222 multiple spaces after operator
+app/controllers/helpers/match_unmatch_segregate.py:153:80: E501 line too long (159 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:157:20: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:158:26: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:159:26: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:159:60: E261 at least two spaces before inline comment
+app/controllers/helpers/match_unmatch_segregate.py:159:61: E262 inline comment should start with '# '
+app/controllers/helpers/match_unmatch_segregate.py:159:80: E501 line too long (152 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:160:26: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:160:60: E261 at least two spaces before inline comment
+app/controllers/helpers/match_unmatch_segregate.py:160:61: E262 inline comment should start with '# '
+app/controllers/helpers/match_unmatch_segregate.py:160:80: E501 line too long (152 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:169:1: W293 blank line contains whitespace
+app/controllers/helpers/match_unmatch_segregate.py:172:80: E501 line too long (86 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:182:30: E222 multiple spaces after operator
+app/controllers/helpers/match_unmatch_segregate.py:192:34: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:193:33: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:194:34: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:195:33: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:196:37: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:197:37: E203 whitespace before ':'
+app/controllers/helpers/match_unmatch_segregate.py:201:5: E303 too many blank lines (2)
+app/controllers/helpers/match_unmatch_segregate.py:202:80: E501 line too long (95 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:218:80: E501 line too long (119 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:221:1: W293 blank line contains whitespace
+app/controllers/helpers/match_unmatch_segregate.py:242:52: E261 at least two spaces before inline comment
+app/controllers/helpers/match_unmatch_segregate.py:242:80: E501 line too long (89 > 79 characters)
+app/controllers/helpers/match_unmatch_segregate.py:249:1: W391 blank line at end of file
+app/controllers/helpers/bank_account_module.py:7:1: E302 expected 2 blank lines, found 1
+app/controllers/helpers/bank_account_module.py:10:80: E501 line too long (93 > 79 characters)
+app/controllers/helpers/bank_account_module.py:11:80: E501 line too long (99 > 79 characters)
+app/controllers/helpers/bank_account_module.py:17:80: E501 line too long (112 > 79 characters)
+app/controllers/helpers/bank_account_module.py:17:81: E203 whitespace before ':'
+app/controllers/helpers/bank_account_module.py:18:80: E501 line too long (85 > 79 characters)
+app/controllers/helpers/bank_account_module.py:25:33: E128 continuation line under-indented for visual indent
+app/controllers/helpers/bank_account_module.py:26:33: E128 continuation line under-indented for visual indent
+app/controllers/helpers/bank_account_module.py:27:33: E124 closing bracket does not match visual indentation
+app/controllers/helpers/bank_account_module.py:31:1: E302 expected 2 blank lines, found 1
+app/controllers/helpers/bank_account_module.py:32:80: E501 line too long (84 > 79 characters)
+app/controllers/helpers/bank_account_module.py:42:15: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/sample_entries.py:4:1: E302 expected 2 blank lines, found 1
+app/controllers/helpers/aje_export_module/sample_entries.py:6:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:6:45: W291 trailing whitespace
+app/controllers/helpers/aje_export_module/sample_entries.py:7:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:8:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:9:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:10:28: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:11:33: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:12:35: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:13:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:13:80: E501 line too long (97 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:16:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:16:45: W291 trailing whitespace
+app/controllers/helpers/aje_export_module/sample_entries.py:17:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:18:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:19:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:20:28: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:21:33: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:22:35: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:23:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:23:80: E501 line too long (97 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:26:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:26:45: W291 trailing whitespace
+app/controllers/helpers/aje_export_module/sample_entries.py:27:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:28:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:29:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:30:28: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:31:33: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:32:35: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:33:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:33:80: E501 line too long (97 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:36:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:36:45: W291 trailing whitespace
+app/controllers/helpers/aje_export_module/sample_entries.py:37:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:38:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:39:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:40:28: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:41:33: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:42:35: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:43:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:43:80: E501 line too long (97 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:46:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:46:45: W291 trailing whitespace
+app/controllers/helpers/aje_export_module/sample_entries.py:47:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:48:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:49:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:50:28: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:51:33: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:52:35: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:53:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/sample_entries.py:53:80: E501 line too long (97 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:72:80: E501 line too long (445 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:73:80: E501 line too long (442 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:74:80: E501 line too long (433 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:94:80: E501 line too long (420 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:95:80: E501 line too long (421 > 79 characters)
+app/controllers/helpers/aje_export_module/sample_entries.py:97:58: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/random_string_generator.py:4:1: E302 expected 2 blank lines, found 1
+app/controllers/helpers/aje_export_module/random_string_generator.py:11:1: W293 blank line contains whitespace
+app/controllers/helpers/aje_export_module/random_string_generator.py:18:1: E303 too many blank lines (3)
+app/controllers/helpers/aje_export_module/random_string_generator.py:20:58: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/random_string_generator.py:20:58: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/random_string_generator.py:20:58: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/check_updated_entries.py:1:1: F401 'pprint.pprint' imported but unused
+app/controllers/helpers/aje_export_module/check_updated_entries.py:16:80: E501 line too long (108 > 79 characters)
+app/controllers/helpers/aje_export_module/check_updated_entries.py:28:40: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:28:42: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:28:58: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:28:60: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:36:40: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/check_updated_entries.py:36:59: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:36:61: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:36:80: E501 line too long (91 > 79 characters)
+app/controllers/helpers/aje_export_module/check_updated_entries.py:36:81: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:36:83: E251 unexpected spaces around keyword / parameter equals
+app/controllers/helpers/aje_export_module/check_updated_entries.py:39:30: E711 comparison to None should be 'if cond is None:'
+app/controllers/helpers/aje_export_module/check_updated_entries.py:40:80: E501 line too long (107 > 79 characters)
+app/controllers/helpers/aje_export_module/check_updated_entries.py:41:24: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/check_updated_entries.py:42:1: W293 blank line contains whitespace
+app/controllers/helpers/aje_export_module/check_updated_entries.py:47:41: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/check_updated_entries.py:50:24: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/check_updated_entries.py:51:13: E128 continuation line under-indented for visual indent
+app/controllers/helpers/aje_export_module/check_updated_entries.py:52:13: E128 continuation line under-indented for visual indent
+app/controllers/helpers/aje_export_module/check_updated_entries.py:54:24: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/check_updated_entries.py:57:24: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/check_updated_entries.py:58:24: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/check_updated_entries.py:61:1: E266 too many leading '#' for block comment
+app/controllers/helpers/aje_export_module/check_updated_entries.py:64:80: E501 line too long (140 > 79 characters)
+app/controllers/helpers/aje_export_module/check_updated_entries.py:71:1: W293 blank line contains whitespace
+app/controllers/helpers/aje_export_module/check_updated_entries.py:71:1: E303 too many blank lines (3)
+app/controllers/helpers/aje_export_module/check_updated_entries.py:71:5: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/populate_entries.py:5:1: E266 too many leading '#' for block comment
+app/controllers/helpers/aje_export_module/populate_entries.py:14:1: E302 expected 2 blank lines, found 1
+app/controllers/helpers/aje_export_module/populate_entries.py:17:34: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/populate_entries.py:18:34: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/populate_entries.py:19:34: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/populate_entries.py:22:34: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/populate_entries.py:23:34: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/populate_entries.py:24:34: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/populate_entries.py:25:1: W293 blank line contains whitespace
+app/controllers/helpers/aje_export_module/populate_entries.py:31:1: W293 blank line contains whitespace
+app/controllers/helpers/aje_export_module/populate_entries.py:41:37: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:42:37: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:44:37: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:45:37: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:47:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:48:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:48:47: W291 trailing whitespace
+app/controllers/helpers/aje_export_module/populate_entries.py:49:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:50:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:51:37: E128 continuation line under-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:52:37: E128 continuation line under-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:54:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:55:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:56:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:57:33: E127 continuation line over-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:58:37: E128 continuation line under-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:59:37: E128 continuation line under-indented for visual indent
+app/controllers/helpers/aje_export_module/populate_entries.py:63:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:64:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:65:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:66:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:67:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:68:28: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:69:33: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:70:35: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:71:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:72:20: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:75:80: E501 line too long (80 > 79 characters)
+app/controllers/helpers/aje_export_module/populate_entries.py:76:80: E501 line too long (93 > 79 characters)
+app/controllers/helpers/aje_export_module/populate_entries.py:78:80: E501 line too long (99 > 79 characters)
+app/controllers/helpers/aje_export_module/populate_entries.py:84:1: W293 blank line contains whitespace
+app/controllers/helpers/aje_export_module/populate_entries.py:87:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:87:38: W291 trailing whitespace
+app/controllers/helpers/aje_export_module/populate_entries.py:88:37: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:88:44: E261 at least two spaces before inline comment
+app/controllers/helpers/aje_export_module/populate_entries.py:88:44: E262 inline comment should start with '# '
+app/controllers/helpers/aje_export_module/populate_entries.py:89:31: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:90:27: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:91:28: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:92:33: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:93:35: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:94:26: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:95:20: E203 whitespace before ':'
+app/controllers/helpers/aje_export_module/populate_entries.py:114:20: E225 missing whitespace around operator
+app/controllers/helpers/aje_export_module/populate_entries.py:117:1: E302 expected 2 blank lines, found 1
+app/controllers/helpers/aje_export_module/populate_entries.py:121:1: E266 too many leading '#' for block comment
+app/controllers/helpers/aje_export_module/populate_entries.py:129:59: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/populate_entries.py:129:59: W292 no newline at end of file
+app/controllers/helpers/aje_export_module/populate_entries.py:129:59: W292 no newline at end of file
+app/url/urls_match_reports.py:21:40: W292 no newline at end of file
